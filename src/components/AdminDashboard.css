@@ -1,0 +1,30 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+    background: linear-gradient(120deg, #2e657b, #2c336c, #1d2c80);
+    padding: 30px;
+    color: white;
+    min-height: 100vh;
+}
+
+.dashboard-title {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-container,
+.list-container {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 900px;
+}
+
+.list-container {
+    margin-top: 40px;
+}
